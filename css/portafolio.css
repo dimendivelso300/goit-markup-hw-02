@@ -35,13 +35,7 @@ body header ul li .item:hover
 {
 color: var(--accent-color);
 }
-body header nav ul li .page:focus,
-body header nav ul li .page .current
-{
-    background-color: #2196f3;
-    color: #2196f3;
 
-}
 .logo{
     position: absolute;
     width: 145px;

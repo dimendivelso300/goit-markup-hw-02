@@ -31,16 +31,15 @@ border: 1px solid #ECECEC;
     color:  #757575;
     text-decoration: none;
 }
-body header nav ul li .page:hover,
-body header ul li .item:hover
+.list_menu li .page:hover,
+.list_menu li .current:focus
 {
 color: var(--accent-color);
 }
-.menu nav .list_menu li .current:focus
-{
-    color: #2196f3;
-
+.menu .item:hover{
+    color: var(--accent-color); 
 }
+
 .logo{
     position: absolute;
     width: 145px;
