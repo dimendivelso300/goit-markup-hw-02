@@ -1,0 +1,194 @@
+:root{
+    --accent-color: #2196f3;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 1600px;
+
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu ul li a{
+    color:  #757575;
+    text-decoration: none;
+}
+body header nav ul li .page:hover,
+body header ul li .item:hover
+{
+color: var(--accent-color);
+}
+body header nav ul li .page:focus,
+body header nav ul li .page .current
+{
+    background-color: #2196f3;
+    color: #2196f3;
+
+}
+.logo{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 200px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+.list_menu{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    padding: 0;
+    height: 16px;
+    margin: 0;
+    left: 453px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    list-style: none;   
+    
+}
+.list_buttons{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 10px;
+    margin-top: 70px;
+    list-style: none;
+    color: #212121; 
+}
+
+.list_buttons li{
+    display: flex;   
+    background: #F5F4FA;
+    border-radius: 4px;
+    justify-content: center;
+}
+.list_buttons li button{
+    width: 128px;
+    height: 38px;
+    padding: 10px 10px;
+    border: 0;
+}
+.btns:focus{
+    background-color: #2196f3;
+    color: #F5F4FA;
+}
+.seccion1{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: 1600px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.seccion1 li{
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.seccion1 li img{
+    width: 370px;
+    height: 294px;
+}
+.seccion1 li .nombre{
+    display: flex;
+    width: 322px;
+    height: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #212121;
+    margin-left: 20px;
+}
+.seccion1 li p{
+    display: flex;
+    width: 322px;
+    height: 30px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    margin-top: 35px;
+    background: #2F303A;
+}
+footer p{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    margin-top: 65px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+footer ul{
+    position: absolute;
+    list-style: none;
+    margin-top: 110px;
+    left: 55px;
+}
+footer ul li a{
+    width: 231px;
+    height: 21px;
+    margin: 120px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    list-style: none;
+}
