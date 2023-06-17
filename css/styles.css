@@ -18,7 +18,7 @@ body{
     padding-bottom: 0px;
     margin: 0;
     width: 1600px;
-    font-family: "Roboto";   
+    font-family: "Roboto", sans-serif;   
 }
 .menu{
     display: flex;
@@ -30,31 +30,27 @@ body{
     background: var(--white-color);
     border: 1px solid #ECECEC;
 }
-.menu nav{
-  
+.page{
+    color:  var(--text-color);
+    text-decoration: none;
 }
-.menu ul{
+
+.list-contac{
     display: flex;
     list-style: none;
     gap: 30px;
 }
-.menu ul li a{
-    color:  var(--text-color);
-    text-decoration: none;
-}
-.list_menu li .page:hover,
-.list_menu li .current-page:focus,
-.list_menu li .page.current-page
+
+.page:hover,
+.item:hover,
+.current-page:focus,
+.page.current-page
 {
 color: var(--accent-color);
 }
-.menu .item:hover{
-    color: var(--accent-color); 
-}
+
 .logo{
     display: flex;
-    width: 145px;
-    height: 31px;
     margin-right: 50px;
     font-weight: 700;
     font-size: 26px;
@@ -79,7 +75,7 @@ color: var(--accent-color);
     list-style: none;  
     justify-content: center; 
 }
-.menu nav{
+.menu-nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,20 +85,13 @@ color: var(--accent-color);
     display: flex;
     background-color: var(--background-black);
     height: 600px;
-
+    padding: 10PX;
     justify-content: center;
     align-items: center;
-}
-.titulo button{
-    margin-top: 30px;
-    cursor: pointer;
 }
 h1{
     width: 696px;
     height: 120px;
-    top: 280px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -110,27 +99,26 @@ h1{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-
+    margin-top: 30px;
 }
-button{
+.btn-serv{
    display: flex;
    justify-content: center;
    align-items: center;
    padding: 10px 32px;
    gap: 10px;
    position: absolute;
-   width: 261px;
-   height: 50px;
-   
-   top: 430px;
+   margin-top: 200px;
+   cursor: pointer;
    background: var(--accent-color);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px
+
 }
 
 /* ----------------------seccion 1----------------------- */
 
-.seccion1{
+.list-seccion1{
     display: flex;
     margin: 0;
     gap: 50px;
@@ -142,13 +130,9 @@ button{
     
 }
 
-.seccion1 li h3{
+.titulo-h3{
 width: 270px;
 height: 16px;
-left: 215px;
-top: 775px;
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -157,14 +141,11 @@ text-transform: uppercase;
 color: var(--black-color);
 }
 
-.seccion1 li p{
-    width: 270px;
+.p-seccion1{
+width: 270px;
 height: 75px;
 left: 215px;
 top: 801px;
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -177,12 +158,11 @@ color: var(--text-color);
     border-right: var(--border-seccion);
     padding-bottom: 80px;
 }
-.seccion2 h2{
+.titulo-h2{
     display: flex;
+    padding-top: 50PX;
+    padding-bottom: 30PX;
     height: 46.24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -192,7 +172,7 @@ color: var(--text-color);
     color: var(--black-color);
 }
 
-.seccion2 ul{
+.list-seccion2{
     display: flex;
     padding: 0;
     gap: 30px;
@@ -200,10 +180,6 @@ color: var(--text-color);
     list-style: none;
 }
 
-.seccion2 ul li{
-    width: 373.16px;
-    height: 323.7px;
-}
 
 /* ------------------------------seccion3----------------- */
 .seccion3{
@@ -213,40 +189,25 @@ color: var(--text-color);
     background: var(--gray-color);
 }
 
-.seccion3 h2{
-    height: 42px;
-    left: 669px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--black-color);
-}
-.seccion3 ul{
+.list-seccion3{
     display: flex;
     padding: 0;
     justify-content: center;
     gap: 33px;
 }
-.seccion3 ul li{
-    width: 270px;
-    height: 368px;
+.item-sec3{
     list-style: none;
     background: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.seccion3 ul li img{
+.img-sec3{
     width: 270px;
     height: 260px;
 }
-.seccion3 ul li .nombre{
+.nombre{
     display: flex;
-    width: 270px;
-    height: 19px;
-    font-weight: 500;
+    margin-left: 0px;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
@@ -256,9 +217,6 @@ color: var(--text-color);
 
 }
 .seccion3 ul li p{
-    width: 270px;
-    height: 19px;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -269,19 +227,15 @@ color: var(--text-color);
 /* ------------------------------footer----------------------- */
 footer{
     display: flex;
-    width: 1600px;
     height: 252px;
-    left: 0px;
     background: var(--background-black);
 }
-footer section{
+.container-foo{
     left: 200px;
     padding-top: 20px;   
 }
 .logo-foo{
     display: flex;
-    width: 145px;
-    height: 31px;
     margin-right: 50px;
     margin-left: 200px;
     font-weight: 700;
@@ -291,27 +245,91 @@ footer section{
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
+    cursor: default;
 }
-footer section ul{
+.list-foo{
     list-style: none;
     margin-left: 200px;
     padding: 0;
     margin-top: 1px;
-
     
 }
-footer section ul li .dir{
+.dir{
     display: flex;
     width: 231px;
     height: 21px;
     margin-bottom: 20px;
     color: var(--white-color);
     text-decoration: none;
+    cursor: default;
 }
 
-footer section ul li .item-foo{
+.item-foo{
  display: flex;
  margin-top: 5px;
  text-decoration: none;
  color: rgba(255, 255, 255, 0.6);
+ cursor: default;
+}
+/* --------------------------------PORTAFOLIO---------------------------- */
+
+.list_buttons{
+    display: flex;
+    justify-content: center;
+    border-left: var(--border-seccion);
+    border-right: var(--border-seccion);
+    margin: 0px;
+    gap: 10px;
+    padding-top: 70px;
+    list-style: none;
+    color: var(--black-color); 
+    padding-bottom: 40px;
+}
+.btns{
+    display: flex;
+    width: 128px;
+    height: 38px;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    justify-content: center;
+}
+.btns:focus{
+    background-color: var(--accent-color);
+    color: var(--gray-color);
+}
+
+.list-porta{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    justify-content: center;
+    border-left: var(--border-seccion);
+    border-right: var(--border-seccion);
+}
+.elem-porta{
+    box-sizing: border-box;
+    background: var(--white-color);
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.nom-porta{
+    display: flex;
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: var(--black-color);
+    margin-left: 20px;
+}
+.p-porta{
+    display: flex;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }

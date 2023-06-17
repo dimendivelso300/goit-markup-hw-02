@@ -42,20 +42,18 @@ body{
     color:  var(--primary-text-color);
     text-decoration: none;
 }
-.list_menu li .page:hover,
-.list_menu li .current:focus,
-.list_menu li .page.current-page
+.page:hover,
+.current:focus,
+.page.current-page
 {
 color: var(--accent-color);
 }
-.menu .item:hover{
+.item:hover{
     color: var(--accent-color); 
 }
 
 .logo{
     display: flex;
-    width: 145px;
-    height: 31px;
     margin-right: 50px;
     font-weight: 700;
     font-size: 26px;
@@ -117,12 +115,11 @@ color: var(--accent-color);
     background-color: var(--accent-color);
     color: var(--gray-color);
 }
-.seccion1{
+.list-porta{
     display: flex;
     margin: 0px;
     list-style: none;
     gap: 20px;
-    width: 1600px;
     padding-left: 0px;
     padding-bottom: 40px;
     justify-content: center;
@@ -144,8 +141,6 @@ color: var(--accent-color);
 }
 .seccion1 li .nombre{
     display: flex;
-    width: 322px;
-    height: 36px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -157,8 +152,6 @@ color: var(--accent-color);
 }
 .seccion1 li p{
     display: flex;
-    width: 322px;
-    height: 30px;
     margin-left: 20px;
     font-family: 'Roboto';
     font-style: normal;
@@ -202,7 +195,7 @@ footer section ul{
 
     
 }
-footer section ul li .dir{
+.dir{
     display: flex;
     width: 231px;
     height: 21px;
@@ -210,10 +203,12 @@ footer section ul li .dir{
     color: var(--white-color);
     text-decoration: none;
 }
-
-footer section ul li .item-foo{
+.item-foo{
  display: flex;
  margin-top: 5px;
  text-decoration: none;
  color: rgba(255, 255, 255, 0.6);
 }
+
+/* ------------------------------------------PORTAFOLIO-------------------------- */
+
